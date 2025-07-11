@@ -1,4 +1,4 @@
-name: Check Indicators for SPYTIPS COOL STRATEGY
+name: Check SPY Drawdown
 
 on:
   schedule:
