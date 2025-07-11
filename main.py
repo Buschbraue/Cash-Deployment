@@ -9,18 +9,21 @@ def main():
 
     signal = get_signal(ath_price, current_price)
 
+    date_str = datetime.utcnow().strftime("%Y-%m-%d")
+
     if signal:
-        with open("message.txt", "w") as f:
-            f.write(signal)
-
-        date_str = datetime.utcnow().strftime("%Y-%m-%d")
-        line = f"[{date_str}] {signal} | Close: {current_price:.2f} | ATH: {ath_price:.2f}\\n"
-        with open("history_SPY.txt", "a") as f:
-            f.write(line)
-
-        print(f"Signal written: {signal}")
+        message = signal
     else:
-        print("No signal today.")
+        message = f"No SPY drawdown signal today."
+
+    # Schreibe IMMER eine Nachricht für Discord
+    with open("message.txt", "w") as f:
+        f.write(message)
+
+    # Verlauf IMMER speichern
+    line = f"[{date_str}] {message} | Close: {current_price:.2f} | ATH: {ath_price:.2f}\n"
+    with open("history_SPY.txt", "a") as f:
+        f.write(line)
 
 if __name__ == "__main__":
     main()
