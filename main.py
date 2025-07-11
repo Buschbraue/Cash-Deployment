@@ -11,19 +11,24 @@ def main():
 
     date_str = datetime.utcnow().strftime("%Y-%m-%d")
 
+    # Verlauf immer schreiben
     if signal:
         message = signal
     else:
-        message = f"No SPY drawdown signal today."
+        message = "No SPY drawdown signal today."
 
-    # Schreibe IMMER eine Nachricht für Discord
-    with open("message.txt", "w") as f:
-        f.write(message)
-
-    # Verlauf IMMER speichern
     line = f"[{date_str}] {message} | Close: {current_price:.2f} | ATH: {ath_price:.2f}\n"
     with open("history_SPY.txt", "a") as f:
         f.write(line)
+
+    # Nur Nachricht an Discord, wenn Schwelle erreicht ist
+    if signal:
+        with open("message.txt", "w") as f:
+            f.write(message)
+    else:
+        # Datei darf NICHT existieren, sonst schickt der Workflow sie trotzdem
+        pass
+
 
 if __name__ == "__main__":
     main()
