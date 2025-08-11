@@ -31,3 +31,4 @@
 [2025-08-08] No SPY drawdown signal today. | Close: 637.18 | ATH: 637.18
 [2025-08-09] No SPY drawdown signal today. | Close: 637.18 | ATH: 637.18
 [2025-08-10] No SPY drawdown signal today. | Close: 637.18 | ATH: 637.18
+[2025-08-11] No SPY drawdown signal today. | Close: 635.92 | ATH: 637.18
