@@ -164,3 +164,4 @@
 [2025-12-20] No SPY drawdown signal today. | Close: 680.59 | ATH: 687.14
 [2025-12-21] No SPY drawdown signal today. | Close: 680.59 | ATH: 687.14
 [2025-12-22] No SPY drawdown signal today. | Close: 685.03 | ATH: 687.14
+[2025-12-23] No SPY drawdown signal today. | Close: 687.90 | ATH: 687.90
