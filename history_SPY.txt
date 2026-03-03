@@ -233,3 +233,4 @@
 [2026-02-28] No SPY drawdown signal today. | Close: 685.99 | ATH: 695.49
 [2026-03-01] No SPY drawdown signal today. | Close: 685.99 | ATH: 695.49
 [2026-03-02] No SPY drawdown signal today. | Close: 686.32 | ATH: 695.49
+[2026-03-03] No SPY drawdown signal today. | Close: 680.62 | ATH: 695.49
