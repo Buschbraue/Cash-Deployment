@@ -399,3 +399,4 @@
 [2026-08-13] No SPY drawdown signal today. | Close: 777.88 | ATH: 777.88
 [2026-08-14] No SPY drawdown signal today. | Close: 776.34 | ATH: 777.88
 [2026-08-15] No SPY drawdown signal today. | Close: 776.34 | ATH: 777.88
+[2026-08-16] No SPY drawdown signal today. | Close: 776.34 | ATH: 777.88
