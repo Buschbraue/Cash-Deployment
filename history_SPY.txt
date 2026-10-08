@@ -451,3 +451,4 @@
 [2026-10-04] No SPY drawdown signal today. | Close: 769.64 | ATH: 775.95
 [2026-10-06] No SPY drawdown signal today. | Close: 774.83 | ATH: 775.95
 [2026-10-06] No SPY drawdown signal today. | Close: 779.09 | ATH: 779.09
+[2026-10-08] No SPY drawdown signal today. | Close: 777.22 | ATH: 779.09
