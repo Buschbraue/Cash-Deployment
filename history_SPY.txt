@@ -500,3 +500,4 @@
 [2026-11-23] SPY is 10% down from ATH — invest 10% | Close: 689.81 | ATH: 779.09
 [2026-11-24] No SPY drawdown signal today. | Close: 722.29 | ATH: 779.09
 [2026-11-25] No SPY drawdown signal today. | Close: 718.78 | ATH: 779.09
+[2026-11-26] No SPY drawdown signal today. | Close: 716.70 | ATH: 779.09
